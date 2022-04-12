@@ -1,0 +1,12 @@
+*{
+ 
+margin: 0px;
+padding: 0px;
+
+}
+.main{
+  background-color: #e8ebef;
+  max-width: 85%;
+  margin: auto;
+  padding-left: 1rem;
+}
