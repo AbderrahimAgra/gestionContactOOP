@@ -1,6 +1,14 @@
 
 <?php 
-include('./incloude/nav.php')
+include('./incloude/nav.php');
+
+include('incloude/dbh.inc.php');
+include('incloude/user.inc.php');
+include('incloude/vewUser.php');
+
+$users = new ViewUser();
+$users->showAllUsers();
+
 ?>
 <!-- main -->
 <div class="main  ">
