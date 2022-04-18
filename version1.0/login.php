@@ -1,23 +1,29 @@
 <!-- header -->
 <?php 
-include('./incloude/nav.php')
+include('./include/nav.inc.php')
 ?>
 <!-- main -->
 <div class="authentification">
   <h2> Authenticate </h2>
-  <form>
+
+
+  <form action="signIn.php" method="POST">
+
+
+
     <div class=" row mb-3">
       <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-
       <div class="col-sm-10">
-        <input type="email" class="form-control" id="inputEmail3">
+        <input type="email" name="email" class="form-control" id="inputEmail3">
+        <span class="validation-msg"></span>
       </div> 
     </div>
 
     <div class="row mb-3">
       <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
       <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword3">
+        <input type="password" name="password" class="form-control" id="inputPassword3">
+        <span class="validation-msg"></span>
       </div>
     </div>
   
@@ -38,5 +44,5 @@ include('./incloude/nav.php')
 
 <!-- footer -->
 <?php 
-include('./incloude/footer.php')
+include('./include/footer.inc.php')
 ?>

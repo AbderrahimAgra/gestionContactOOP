@@ -1,0 +1,43 @@
+*{
+ 
+margin: 0px;
+padding: 0px;
+
+} 
+.main{
+  background-color: #e8ebef;
+  max-width: 85%;
+  margin: auto;
+  padding-left: 1rem;
+}
+
+
+.authentification{
+ 
+  max-width: 80%;
+  margin: auto;
+  padding-left: 1rem;
+
+}
+.authentification h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/*validation*/
+
+.validation-msg{
+  color: red;
+  font-size: .7rem;
+}
+.invalid {
+    border: 1px solid red !important;
+    background: #ffdede !important;
+    box-shadow: red 0px 0px 8px;
+}
+.valid {
+    border: 1px solid rgb(0, 255, 85) !important;
+    box-shadow: #73ff73ba 0px 0px 8px;
+}

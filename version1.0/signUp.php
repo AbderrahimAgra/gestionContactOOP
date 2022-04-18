@@ -1,6 +1,6 @@
 <!-- header -->
 <?php 
-include('./incloude/nav.php')
+include('./include/nav.inc.php')
 ?>
 <!-- main -->
 
@@ -47,5 +47,5 @@ include('./incloude/nav.php')
 
 <!-- footer -->
 <?php 
-include('./incloude/footer.php')
+include('./include/footer.inc.php')
 ?>

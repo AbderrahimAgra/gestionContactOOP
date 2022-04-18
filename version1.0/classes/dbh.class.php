@@ -1,14 +1,14 @@
 <?php
 
-class dbh
+class Dbh
 {
   private $servername;
   private $username;
   private $password;
   private $dbname;
 
-protected function connect(){
-  $this->servername='127.0.0.1';
+public function connect(){
+  $this->servername='localhost';
   $this->username='root';
   $this->password='';
   $this->dbname='gestioncontact';
@@ -17,6 +17,5 @@ protected function connect(){
   return $connect;
 }
 
-  
    
 }
