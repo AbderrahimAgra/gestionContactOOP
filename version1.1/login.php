@@ -36,12 +36,6 @@
     </div>
 
 
-
-
-
-
-
-
 <!-- footer -->
 
 <?php include('./include/footer.inc.php') ;?>
