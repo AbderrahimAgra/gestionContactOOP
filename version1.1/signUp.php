@@ -1,15 +1,14 @@
 <!-- header -->
-<?php 
-include('./include/nav.inc.php')
-?>
-<!-- main -->
 
+<?php include('./include/nav.inc.php') ?>
+
+<!-- main -->
 
 
     <div class="authentification">
         <h2> Sign up </h2>
             <form>
-              
+
               <div class=" row mb-3">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
 
@@ -40,12 +39,6 @@ include('./include/nav.inc.php')
             </form>
         <p class="d-flex justify-content-center my-5">Alredy have an account? <a href="login.php">Login</a> here. </p>
     </div>
-
-
-
-
-
-
 
 <!-- footer -->
 <?php 

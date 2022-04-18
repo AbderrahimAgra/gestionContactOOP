@@ -1,10 +1,9 @@
+<!-- header -->
 
-<?php 
+<?php include_once('./include/nav.inc.php');?>
 
-include_once('./include/nav.inc.php');
-
-?>
 <!-- main -->
+
 <div class="main  ">
   
   <h1>Hello!</h1>
@@ -13,6 +12,6 @@ include_once('./include/nav.inc.php');
   
 </div>
 
-<?php 
-include('./include/footer.inc.php')
-?>
+<!-- footer -->
+
+<?php include('./include/footer.inc.php'); ?>
